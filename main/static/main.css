@@ -1,0 +1,73 @@
+@font-face {
+    font-family: "Craftwork Grotesk Bold";
+    src: local("Craftwork Grotesk Bold"), local("CraftworkGrotesk-Bold"),
+    url("main/fonts/CraftworkGrotesk-Bold.ttf");
+    font-weight: bold;
+}
+.fontH {
+    font-family: "Craftwork Grotesk Bold", serif;
+    font-size: 75px;
+    margin-top: 25px;
+
+}
+.fontHh {
+    font-family: "Craftwork Grotesk", serif;
+}
+.fontP{
+    font-family: "Craftwork Grotesk", serif;
+    font-size: 21px;
+}
+.fullscreen-bg {
+    overflow: hidden;
+    z-index: -100;
+    position: relative;
+    height: 100%;
+    width: 100%;
+    padding-top:45%;
+}
+.sundayServices {
+    font-family: "Craftwork Grotesk Regular", serif;
+    font-size: 75px;
+}
+
+.fullscreen-bg__video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+}
+.overlay {
+    background: rgba(0,0,0,0.6);
+    position: absolute;
+    top:0;
+    left:0;
+    width: 100%;
+    height: 100%;
+    z-index: 4;
+}
+.overlay h1 {
+    text-align:center;
+    color:#fff;
+    font-size: 70px;
+    margin-top:17%;
+    font-family: "Craftwork Grotesk Bold", serif;
+}
+.headerstat
+{
+    position:fixed;
+    width: 100%;
+    z-index:1000;
+    background: rgb(255, 255, 255);
+}
+.logospan {
+    display:inline-block;
+}
+.fontH h1 {
+    font-family: "Craftwork Grotesk Bold", serif;
+    font-size: 35px;
+}
+.ourChurch {
+    font-family: "Craftwork Grotesk Regular", serif;
+    font-size: 25px;
+}
+
