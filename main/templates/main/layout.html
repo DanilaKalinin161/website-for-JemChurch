@@ -1,4 +1,5 @@
 {% load static%}
+{% load i18n %}
 <!doctype html>
 <html lang="en">
 <head>
@@ -19,12 +20,12 @@
         <span class="logospan  "><img  style="width: 50px; margin-left: 15px;"  src="{% static 'main/img/logo_top.png' %}"> </span>
 {#        <span class="text-start"><h3 class="text-start" style="font-family: Craftwork Grotesk Regular, serif">Jesus Embassy Church Florida</h3></span>#}
         <ul class="nav  gx-0 justify-content-center mb-md-0 ">
-            <li class="fontHh"><a href="{% url 'home' %}" class="nav-link px-2 fontHh  link-secondary">Главная</a></li>
-            <li><a href="{% url 'about' %}" class="nav-link px-2 fontHh  link-secondary">О церкви</a></li>
-            <li><a href="#" class="nav-link px-2 fontHh  link-secondary">События</a></li>
-            <li><a href="#" class="nav-link px-2 fontHh  link-secondary">Домашнии группы </a></li>
-            <li><a href="#" class="nav-link fontHh  px-2 link-secondary">Служим вместе</a></li>
-            <li><a href="{% url 'donate' %}" class="nav-link fontHh  px-2 link-secondary">Благотворительность</a></li>
+            <li class="fontHh"><a href="{% url 'home' %}" class="nav-link px-2 fontHh  link-secondary">{% translate 'Home' %}</a></li>
+            <li><a href="{% url 'about' %}" class="nav-link px-2 fontHh  link-secondary">{% translate 'About the church' %}</a></li>
+            <li><a href="#" class="nav-link px-2 fontHh  link-secondary">{% translate 'Events' %}</a></li>
+            <li><a href="#" class="nav-link px-2 fontHh  link-secondary">{% translate 'Home groups' %}</a></li>
+            <li><a href="#" class="nav-link fontHh  px-2 link-secondary">{% translate "Let's serve together" %}</a></li>
+            <li><a href="{% url 'donate' %}" class="nav-link fontHh  px-2 link-secondary">{% translate 'Donate' %}</a></li>
         </ul>
 
 {#        <div class="col-md-3 text-end">#}
