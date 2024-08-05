@@ -99,68 +99,8 @@
         
    </div>
 
-    <div uk-slider="center: true" style="">
-        <div class="uk-position-relative uk-margin-small-top uk-visible-toggle uk-light" tabindex="-1">
-            <ul class="uk-slider-items uk-child-width-1-2@s uk-grid">
-                <li>
-                    <div class="uk-card uk-card-default">
-                        <div class="uk-card-media-top">
-                            <img src="/demo/img/photo.jpg" width="900" height="600" alt="Слайдер" loading="lazy">
-                        </div>
-                        <div class="uk-card-body">
-                            <h3 class="uk-card-title">Cлайдер</h3>
-                            <p>Теория конечных целей идет далеко, когда она ограничивается, будущее предсуществует.</p>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="uk-card uk-card-default">
-                        <div class="uk-card-media-top">
-                            <img src="/demo/img/dark.jpg" width="900" height="600" alt="Слайдер" loading="lazy">
-                        </div>
-                        <div class="uk-card-body">
-                            <h3 class="uk-card-title">Карусель</h3>
-                            <p>Строго говоря, ничто не мешает нам вообразить себе, что в каком-нибудь одном индивиде.</p>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="uk-card uk-card-default">
-                        <div class="uk-card-media-top">
-                            <img src="/demo/img/light.jpg" width="900" height="600" alt="Слайдер" loading="lazy">
-                        </div>
-                        <div class="uk-card-body">
-                            <h3 class="uk-card-title">Карточка</h3>
-                            <p>Предположим, что механическое воззрение правильно, что развитие состоит из ряда случайностей.</p>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="uk-card uk-card-default">
-                        <div class="uk-card-media-top">
-                            <img src="/demo/img/photo2.jpg" width="900" height="600" alt="Слайдер" loading="lazy">
-                        </div>
-                        <div class="uk-card-body">
-                            <h3 class="uk-card-title">Карта</h3>
-                            <p>При этом сила доказательства будет пропорциональна степени удаленности взятых линий.</p>
-                        </div>
-                    </div>
-                </li>
-                <li>
-                    <div class="uk-card uk-card-default">
-                        <div class="uk-card-media-top">
-                            <img src="/demo/img/photo3.jpg" width="900" height="600" alt="Слайдер" loading="lazy">
-                        </div>
-                        <div class="uk-card-body">
-                            <h3 class="uk-card-title">Заголовок</h3>
-                            <p>Согласно гипотезе производит изменение, по второй же она только делает выбор между ними.</p>
-                        </div>
-                    </div>
-                </li>
-            </ul>
-            <a class="uk-position-center-left uk-position-small uk-hidden-hover" href uk-slidenav-previous uk-slider-item="previous"></a>
-            <a class="uk-position-center-right uk-position-small uk-hidden-hover" href uk-slidenav-next uk-slider-item="next"></a>
-        </div>
-        <ul class="uk-slider-nav uk-dotnav uk-flex-center uk-margin"></ul>
-    </div>
+{% for el in context %}
+    <h1>{{ el.name }}</h1>
+{% endfor %}
+
 {% endblock %}
