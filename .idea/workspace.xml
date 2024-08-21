@@ -5,20 +5,22 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="570fff5b-1a4f-4ac0-a088-7cd7afedfff5" name="Changes" comment="finished setting up the language change and create DB">
-      <changelist_data name="DanilaKalinin161" email="aooa32544@gmail.com" />
-      <change afterPath="$PROJECT_DIR$/main/migrations/0001_initial.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/static/main/script/slider.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/main/static/main/slider.css" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/sliders/python_wallpaper__free_download__4k___by_drelix_dcfh81e-fullview.jpg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/static/main/img/python_wallpaper__free_download__4k___by_drelix_dcfh81e-fullview.jpg" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/main/img/slider/buttom-nxt.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/main/img/slider/button-pre.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/main/img/slider/new_mounth.jpg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/main/static/main/style/slider.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_08_2024,_19_18_[Changes]/shelved.patch" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/shelf/Uncommitted_changes_before_Update_at_04_08_2024__19_18__Changes_.xml" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/siteForJem.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/siteForJem.iml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/db.sqlite3" beforeDir="false" afterPath="$PROJECT_DIR$/db.sqlite3" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/admin.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/admin.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/models.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/models.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/main.css" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/style/main.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/main/script/slider.js" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/script/slider.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/static/main/slider.css" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/main/templates/main/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main/views.py" beforeDir="false" afterPath="$PROJECT_DIR$/main/views.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/main/templates/main/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/main/templates/main/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/siteForJem/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/siteForJem/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sliders/python_wallpaper__free_download__4k___by_drelix_dcfh81e-fullview.jpg" beforeDir="false" afterPath="$PROJECT_DIR$/main/static/main/img/python_wallpaper__free_download__4k___by_drelix_dcfh81e-fullview.jpg" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/static/main/img/python_wallpaper__free_download__4k___by_drelix_dcfh81e-fullview.jpg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -43,7 +45,9 @@
         <option value="DanilaKalinin161 &lt;aooa32544@gmail.com&gt;" />
       </list>
     </option>
+    <option name="PUSH_AUTO_UPDATE" value="true" />
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+    <option name="UPDATE_TYPE" value="REBASE" />
   </component>
   <component name="GitHubPullRequestSearchHistory">{
   &quot;lastFilter&quot;: {
@@ -54,9 +58,12 @@
   <component name="GithubPullRequestsUISettings">{
   &quot;selectedUrlAndAccountId&quot;: {
     &quot;url&quot;: &quot;https://github.com/DanilaKalinin161/website-for-JemChurch.git&quot;,
-    &quot;accountId&quot;: &quot;a953e480-c1a4-416a-a3d8-258389ab9a0d&quot;
+    &quot;accountId&quot;: &quot;91883992-8fd7-40f3-bb5a-113282a4ae48&quot;
   }
 }</component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
+  </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 4
 }</component>
@@ -78,7 +85,7 @@
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.pycharm.django.structure.promotion.once.per.project&quot;: &quot;true&quot;,
     &quot;git-widget-placeholder&quot;: &quot;master&quot;,
-    &quot;last_opened_file_path&quot;: &quot;/home/danila/PycharmProjects/website-for-JemChurch&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/home/danila/PycharmProjects/website-for-JemChurch/main/static/main/img/slider&quot;,
     &quot;list.type.of.created.stylesheet&quot;: &quot;CSS&quot;,
     &quot;node.js.detected.package.eslint&quot;: &quot;true&quot;,
     &quot;node.js.detected.package.tslint&quot;: &quot;true&quot;,
@@ -90,12 +97,19 @@
   }
 }</component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/main/static/main/img/slider" />
+      <recent name="$PROJECT_DIR$/main/static/main" />
+      <recent name="$PROJECT_DIR$/static/main/style" />
+      <recent name="$PROJECT_DIR$/static/main" />
+      <recent name="$PROJECT_DIR$/static" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/main/static" />
       <recent name="C:\Users\User\PycharmProjects\siteForJem\main\static" />
       <recent name="C:\Users\User\PycharmProjects\siteForJem\main\static\main" />
       <recent name="C:\Users\User\PycharmProjects\siteForJem\main\static\main\img" />
       <recent name="C:\Users\User\PycharmProjects\siteForJem\main\static\main\video" />
-      <recent name="C:\Users\User\PycharmProjects\siteForJem\main\static\main\fonts" />
     </key>
   </component>
   <component name="RunManager">
@@ -128,8 +142,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-1d06a55b98c1-0b3e54e931b4-JavaScript-PY-241.18968.29" />
-        <option value="bundled-python-sdk-f5635417b835-2767605e8bc2-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-241.18968.29" />
+        <option value="bundled-js-predefined-d6986cc7102b-410509235cf1-JavaScript-PY-242.20224.347" />
+        <option value="bundled-python-sdk-c2d6afa66fbe-39cff9de6eef-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-242.20224.347" />
       </set>
     </attachedChunks>
   </component>
@@ -159,6 +173,12 @@
       <workItem from="1722814141118" duration="1894000" />
       <workItem from="1723000498156" duration="1751000" />
       <workItem from="1723074152486" duration="8021000" />
+      <workItem from="1723084050589" duration="226000" />
+      <workItem from="1723312048760" duration="433000" />
+      <workItem from="1723598293458" duration="6854000" />
+      <workItem from="1723605165327" duration="2926000" />
+      <workItem from="1723764921095" duration="11821000" />
+      <workItem from="1724196668327" duration="1830000" />
     </task>
     <task id="LOCAL-00001" summary="building a structure">
       <option name="closed" value="true" />
@@ -168,7 +188,15 @@
       <option name="project" value="LOCAL" />
       <updated>1722427889702</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="finished setting up the language change and create DB">
+      <option name="closed" value="true" />
+      <created>1723084080740</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1723084080740</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">

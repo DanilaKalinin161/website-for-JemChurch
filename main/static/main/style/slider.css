@@ -1,0 +1,83 @@
+.pre-button, .nxt-button {
+    height: 50px;
+    width: 50px;
+    display: flex;
+    position: absolute;
+    justify-content: center;
+    border: none;
+    outline: none;
+    background-color: rgba(0,0,0,0%);
+    z-index: 10;
+    align-items: center;
+
+}
+.pre-button{
+    left: 0;
+}
+.nxt-button{
+    right: 0;
+}
+.pre-button-img, .nxt-button-img{
+    display: block;
+    height: 100%;
+    width: auto;
+    opacity: 0.2;
+}
+.pre-button-img:hover, .nxt-button-img:hover{
+    opacity: 1;
+}
+.slider-container-image{
+    height: 300px;
+    width: 150px;
+    justify-content: center;
+    left: 15%;
+    top: 5%;
+    border-radius: 15%;
+}
+.slider-container-image-img{
+    display: block;
+    height: 100%;
+    width: auto;
+    border-radius: 15%;
+}
+.slider{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 300px;
+}
+.slider-container-main{
+    padding: 0 10vw;
+  display: flex;
+  overflow-x: auto;
+  scroll-behavior: smooth;
+}
+
+.slider-container-content{
+    margin-top: 12px;
+}
+.slider-container-content-text{
+    height: 200px;
+}
+.slider-container-content-text-name{
+    margin-top: 15px;
+}
+.slider-container-content-text-name-link{
+    text-decoration: none;
+    color: black;
+}
+.slider-container-content-text-description{
+    margin-top: 4px;
+    overflow: hidden;
+    word-wrap: break-word;
+}
+.slider-container{
+    max-width: 245px;
+    max-height: 700px ;
+    margin-left: 15px;
+    margin-right: 15px;
+    flex: 0 0 auto;
+}
+.slider-container-content-button{
+    margin-top: auto;
+}

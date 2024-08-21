@@ -25,7 +25,7 @@ SECRET_KEY = 'django-insecure-%a8_(3_q7pl%kpdc72p5*#qt-q0srhec%yxy=^o^hl6xz)idxv
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = ['20c7-2603-9000-c000-6a3b-c036-277f-329b-565d.ngrok-free.app']
 
 
 # Application definition
@@ -56,7 +56,7 @@ ROOT_URLCONF = 'siteForJem.urls'
 TEMPLATES = [
     {
         'BACKEND': 'django.template.backends.django.DjangoTemplates',
-        'DIRS': [BASE_DIR / 'templates']
+        'DIRS': [BASE_DIR / 'main/templates/main']
         ,
         'APP_DIRS': True,
         'OPTIONS': {
@@ -133,6 +133,6 @@ STATIC_URL = 'static/'
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
 STATICFILES_DIRS = [
-    BASE_DIR / "static",
-    # "/var/www/static/",
+    BASE_DIR / "static/",
+    "main/static/main",
     ]

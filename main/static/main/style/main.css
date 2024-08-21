@@ -1,7 +1,7 @@
 @font-face {
     font-family: "Craftwork Grotesk Bold";
     src: local("Craftwork Grotesk Bold"), local("CraftworkGrotesk-Bold"),
-    url("main/fonts/CraftworkGrotesk-Bold.ttf");
+    url("main/static/main/fonts/CraftworkGrotesk-Bold.ttf");
     font-weight: bold;
 }
 .fontH {
@@ -70,4 +70,3 @@
     font-family: "Craftwork Grotesk Regular", serif;
     font-size: 25px;
 }
-

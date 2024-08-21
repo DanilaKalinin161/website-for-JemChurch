@@ -1,11 +1,16 @@
-$(document).ready(function() {
- $("#news-slider").owlCarousel({
- items:3,
- itemsDesktop:[1199,3],
- itemsDesktopSmall:[1000,2],
- itemsMobile:[650,1],
- pagination:false,
- navigationText:false,
- autoPlay:true
- });
- });
+const productContainers = [...document.querySelectorAll('.slider-container-main')];
+const nxtBtn = [...document.querySelectorAll('.nxt-button')];
+const preBtn = [...document.querySelectorAll('.pre-button')];
+
+productContainers.forEach((item, i) => {
+    let containerDimensions = item.getBoundingClientRect();
+    let containerWidth = containerDimensions.width;
+
+    nxtBtn[i].addEventListener('click', () => {
+        item.scrollLeft += containerWidth;
+    })
+
+    preBtn[i].addEventListener('click', () => {
+        item.scrollLeft -= containerWidth;
+    })
+})

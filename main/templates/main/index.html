@@ -1,9 +1,13 @@
 {% extends 'main/layout.html' %}
+{% load static %}
+{% load i18n %}
+
 
 
 {% block title %}Main page{% endblock %}
 
 {% block content %}
+    <head><link rel="stylesheet" href="{% static 'main/style/slider.css' %}"></head>
     <div class="fullscreen-bg" >
         <div class="overlay">
             <h1 >JEM CHURCH FLORIDA<br>Welcome Home</h1>
@@ -98,7 +102,60 @@
         </div>
         
    </div>
+    <!------------------ slider ------------------->
 
+<div class="slider">
+    <button class="pre-button "><img alt="pre-button-img" class="pre-button-img" src="{% static 'main/img/slider/button-pre.png' %}"></button>
+    <button class="nxt-button "><img alt="nxt-button-img" class="nxt-button-img" src="{% static 'main/img/slider/buttom-nxt.png' %}"></button>
+<div class="slider-container-main ">
+    <div class="slider-container ">
+        <div class="slider-container-image">
+            <img class="slider-container-image-img" src="{% static 'main/img/slider/new_mounth.jpg' %}">
+        </div>
+        <div class="slider-container-content">
+            <div class="slider-container-content-text">
+            <div class="slider-container-content-text-date">{% translate '15-17 avg' %}</div>
+            <div class="slider-container-content-text-name"><a class="slider-container-content-text-name-link" href="/">{% translate 'yang camp' %}</a></div>   
+            <div class="slider-container-content-text-description">{% translate 'snfsdsjhd vsdvisdnfjsdnfjnasjnaisdkas ck ajcsajd vksd vjsvjsd' %}</div>
+            </div>
+            <div class="slider-container-content-button">
+                <button class="btn btn-dark"><a style=" text-decoration: none; color: white " href="/about">More</a></button>
+            </div>
+        </div>
+    </div>
+    <div class="slider-container ">
+        <div class="slider-container-image">
+            <img class="slider-container-image-img" src="{% static 'main/img/slider/new_mounth.jpg' %}">
+        </div>
+        <div class="slider-container-content">
+            <div class="slider-container-content-text">
+            <div class="slider-container-content-text-date">{% translate '15-17 avg' %}</div>
+            <div class="slider-container-content-text-name"><a class="slider-container-content-text-name-link" href="/">{% translate 'yang camp' %}</a></div>
+            <div class="slider-container-content-text-description">{% translate 'snfsdsjhd vsdvisdnfjsdnfjnasjnaisdkas ck ajcsajd vksd vjsvjsd' %}</div>
+            </div>
+            <div class="slider-container-content-button">
+                <button class="btn btn-dark"><a style=" text-decoration: none; color: white " href="/about">More</a></button>
+            </div>
+        </div>
+    </div>
+    <div class="slider-container ">
+        <div class="slider-container-image">
+            <img class="slider-container-image-img" src="{% static 'main/img/slider/new_mounth.jpg' %}">
+        </div>
+        <div class="slider-container-content">
+            <div class="slider-container-content-text">
+            <div class="slider-container-content-text-date">{% translate '15-17 avg' %}</div>
+            <div class="slider-container-content-text-name"><a class="slider-container-content-text-name-link" href="/">{% translate 'yang camp' %}</a></div>
+            <div class="slider-container-content-text-description">{% translate 'snfsdsjhd vsdvisdnfjsdnfjnasjnaisdkas ck ajcsajd vksd vjsvjsd' %}</div>
+            </div>
+            <div class="slider-container-content-button">
+                <button class="btn btn-dark"><a style=" text-decoration: none; color: white " href="/about">More</a></button>
+            </div>
+        </div>
+    </div>
+</div>
+</div>
+    <h2 class="hph">151</h2>
 {% for el in context %}
     <h1>{{ el.name }}</h1>
 {% endfor %}
